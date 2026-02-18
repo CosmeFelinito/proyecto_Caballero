@@ -10,7 +10,6 @@ git branch -M main
 git push -u origin main
 todo-app/
 
----
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import TaskList from './components/TaskList';
 import TaskForm from './components/TaskForm';
@@ -26,8 +25,6 @@ function App() {
     </Router>
   );
 }
-
-export default App;
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -54,7 +51,6 @@ function TaskList() {
     </div>
   );
 }
-
 export default TaskList;
 import { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
